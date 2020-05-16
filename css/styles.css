@@ -1,0 +1,83 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+nav a {
+    
+text-decoration: none;
+padding: 10px;
+color: #920857;
+font-size: 24px;
+font-family: Tahoma, sans-serif;
+}
+hr {
+    height: 10px;
+    border: #920857 solid 1px;
+    background-color: #920857
+}
+#shopOnline {
+    font-size: 44px;
+    color: #920857;
+}
+#cart{
+    font-size: 50px;
+    color: orange;
+}
+
+main {
+    display: flex;
+}
+.stores{
+    width: 380px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.stores img{
+    border: orange solid 2px;
+    margin: 10px 0;
+}
+.storePhotos {
+    height: 180px;
+    width: 360px;
+
+}
+
+#onlineStore {
+text-align: center;
+border: orange solid 2px;
+padding: 30px;
+}
+
+
+.middleColumn{
+    width: 520px;
+    padding-top: 15px;
+}
+#map{
+    width: 500px;
+    height: 300px;
+    border: orange solid 2px;
+}
+#carouselExampleIndicators{
+    
+    margin: auto;
+    margin-top: 20px;
+    width: 280px;
+    height: 250px;
+}
+#socialFeed{
+    width: 300px;
+    height: 590px;
+    border: orange 2px solid;
+    margin: 0 15px;
+    margin-top: 15px;
+}
+footer {
+    border: orange solid 2px;
+    height: 180px;
+    width: 100%;
+    background-color: #920857;
+margin-top: 10px;
+}
