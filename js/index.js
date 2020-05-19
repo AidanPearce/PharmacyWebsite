@@ -1,17 +1,17 @@
 $("document").ready(function () {
 
     $('#cranfordPharmacy').mouseenter(function () {
-        $('#cranfordPharmacy').attr("src", "CranfordImage.jpg")
+        $('#cranfordPharmacy').attr("src", "images/CranfordImage.jpg")
     });
     $('#cranfordPharmacy').mouseleave(function () {
-        $('#cranfordPharmacy').attr("src", "Cranford2.png")
+        $('#cranfordPharmacy').attr("src", "images/Cranford2.png")
     });
 
     $('#stAlbansPharmacy').mouseenter(function () {
-        $('#stAlbansPharmacy').attr("src", "StAlbansPharmacy.jpg")
+        $('#stAlbansPharmacy').attr("src", "images/StAlbansPharmacy.jpg")
     });
     $('#stAlbansPharmacy').mouseleave(function () {
-        $('#stAlbansPharmacy').attr("src", "StAlbans2.png")
+        $('#stAlbansPharmacy').attr("src", "images/StAlbans2.png")
     });
 
 });

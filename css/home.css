@@ -1,0 +1,114 @@
+body {
+    background-color: #920857;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    background-color: white;
+}
+nav a {
+    
+text-decoration: none;
+padding: 10px;
+color: #920857;
+font-size: 24px;
+font-family: Tahoma, sans-serif;
+}
+hr {
+    height: 10px;
+    border: #920857 solid 1px;
+    background-color: #920857;
+    animation: load 1s ;
+}
+
+@keyframes load {
+    from{
+        width: 1%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+#shopOnline {
+    font-size: 44px;
+    color: #920857;
+}
+#cart{
+    font-size: 50px;
+    color: orange;
+}
+
+#homeBody {
+    
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 50px;
+    border: orange 2px solid;
+    position: relative;
+}
+.stores{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+
+}
+.stores img{
+    border: orange solid 2px;
+    border-radius: 10px;
+}
+.storePhotos {
+    height: 180px;
+    width: 360px;
+    margin: 50px 30px;
+}
+
+#onlineStore {
+text-align: center;
+border: orange solid 2px;
+padding: 30px;
+border-radius: 10px;
+background-color: white;
+height: 180px;
+width: 360px;
+}
+
+#socialLogo{
+margin: auto;
+font-size: 50px;
+height: 50px;
+width: 50px;
+transition: transform 0.2s ease-in-out;
+}
+#socialLogo:hover{
+    transform: scale(1.4);
+    }
+#malcolmPearce{
+    height: 100px;
+    width: 112px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+#cranfordPharmacy{
+    transition: transform 0.2s ease-in-out;
+}
+#cranfordPharmacy:hover{
+transform: scale(1.1);
+}
+#stAlbansPharmacy{
+    transition: transform 0.2s ease-in-out;
+}
+#stAlbansPharmacy:hover{
+transform: scale(1.1);
+}
+#onlineStore{
+    transition: transform 0.2s ease-in-out;
+}
+#onlineStore:hover{
+transform: scale(1.1);

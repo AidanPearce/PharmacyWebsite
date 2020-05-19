@@ -15,8 +15,19 @@ font-family: Tahoma, sans-serif;
 hr {
     height: 10px;
     border: #920857 solid 1px;
-    background-color: #920857
+    background-color: #920857;
+    animation: load 1.5s ;
 }
+
+@keyframes load {
+    from{
+        width: 1%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
 #shopOnline {
     font-size: 44px;
     color: #920857;
@@ -28,6 +39,7 @@ hr {
 
 main {
     display: flex;
+    
 }
 .stores{
     width: 380px;
@@ -37,6 +49,7 @@ main {
 .stores img{
     border: orange solid 2px;
     margin: 10px 0;
+    border-radius: 10px;
 }
 .storePhotos {
     height: 180px;
@@ -48,6 +61,8 @@ main {
 text-align: center;
 border: orange solid 2px;
 padding: 30px;
+border-radius: 10px;
+background-color: white;
 }
 
 
@@ -80,4 +95,22 @@ footer {
     width: 100%;
     background-color: #920857;
 margin-top: 10px;
+}
+.contentBody {
+    width: 900px;
+}
+#contactParagraph{
+    width: 800px;
+    height: 120px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #920857;
+}
+#contactParagraph h3{
+    font-size: 30px;
 }
